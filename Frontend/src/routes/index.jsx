@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import { App } from '../App'
 import { HomePage } from "../frontPage/homePage";
-import SearchPage from "../frontPage/searchPage";
+import SearchPage from "../frontPage/SearchPage";
 import { Login } from "../frontPage/loging";
 import { RegisterPage } from "../frontPage/registerUser";
 import ForgotPassword from "../frontPage/forgotPassword";
