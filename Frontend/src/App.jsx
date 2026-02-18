@@ -80,7 +80,12 @@ export const App=()=> {
         </main>
         <Footer/>
         <ToastContainer/>
-        <CartMobileVerson/>
+        {
+          location.pathname !== '/check-Out' && (
+
+            <CartMobileVerson/>
+          )
+        }
       </GlobalProvider>
     )
 }

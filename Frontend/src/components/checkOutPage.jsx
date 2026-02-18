@@ -103,7 +103,7 @@ const handlePlaceOrder =()=>{
                   return (
                     <label htmlFor={'address'+index} key={index} className={`gap-5 mb-2 ${!address.status && 'hidden'}`}>
 
-                <div  className="border rounded-lg p-4 flex justify-between items-center hover:border-red-400 cursor-pointer">
+                <div  className="border rounded-lg p-4 mb-2 flex justify-between items-center hover:border-red-400 cursor-pointer">
                 <div>
                 <p className="font-medium text-gray-800"> {address.city} </p>
                   <p className="text-sm text-gray-500">

@@ -36,7 +36,7 @@ function CartMobileVerson() {
               </div>
 
               {/* Right side: Button */}
-              <Link to={'/cart'}
+              <Link to={'/check-Out'}
                 className="bg-red-500 flex text-white px-5 py-2 rounded-lg text-sm font-semibold
                    hover:bg-red-600 active:scale-95 transition"
               >
